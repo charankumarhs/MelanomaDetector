@@ -26,7 +26,7 @@ To build a CNN based model which can accurately detect melanoma. Melanoma is a t
 
 1. The dataset has got class imabalance and the generic CNN model we built is overfitting. We can see that the accuracy of the model with training dataset is increasing over time with each epoch, reaching an accuracy of 85%+, whereas the accuracy of the validation dataset stalls around 50-55%. Furthermore, the difference between accuracy of training and validation dataset is ~30%+, which is a huge difference and the model is clearly Overfitting. The overfitting in this case is most likely due to less number of images in the dataset we are giving to the model for learning and the model could be learning from noise or unwanted data.
 2. The model built with data augmentation to fix the problem of overfitting helped in reducing the overfitting of the model but the model accuracy is coming around ~60%, which is not great.
-3. Rectified the class imbalance using Augmentor and then built a model which seem to be working pretty well than the other two models giving an accuracy of ~95%+ with training and ~80% with validation dataset.
+3. Rectified the class imbalance using Augmentor and then built a model with good amount of experimentation of the model with choosing activation functions, addring dropout layers, adding batch normalization, choosing the optimizers, which worked out well. A model with ~86% accuracy with validation data set is built.
 
 
 ## Technologies Used
