@@ -2,7 +2,7 @@
 This is part of convolutional Neural Network demonstartion from the skills gained during the course study using dataset consists of 2239 training images of malignant and benign oncological diseases, which were formed from the International Skin Imaging Collaboration (ISIC).
 
 ## Table of Contents
-* [General Info](#general-information)
+* [General Info and Problem Statement](#general-information)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
